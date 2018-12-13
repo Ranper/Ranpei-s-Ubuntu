@@ -9,4 +9,12 @@
 5.git diff 查看修改的具体内容
   git diff filename 查看filename的修改内容
 
-6.
+6.git log (--pretty = oneline) 查看提交修改的日志
+
+7.git reset --hard HEAD^    退回到上个版本
+  git reset --hard HEAD^    退回到上上个版本
+  git reset --hard HEAD~100 退回到100个版本之前
+  如果还想回去，git reset --hard 想回去commit的前几位号码
+
+8.如果窗口已经关闭，找不见想退回的版本号，使用命令 git reflog 用来记录每一次命令
+  所以每一次提交的时候都要好好写note啊，不然到时候哭都不知道怎么哭。
