@@ -1,0 +1,12 @@
+1.git init建立一个库。
+
+2.git add filename
+
+3.git commit -m "Note"
+
+4.git status 查看git状态
+
+5.git diff 查看修改的具体内容
+  git diff filename 查看filename的修改内容
+
+6.
